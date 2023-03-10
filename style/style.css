@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Начало работы с футером */
+
+.footer_inner {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.online_store {
+  background-color: #31C5A1;
+}
+
+.store_header {
+  text-align: center;
+  padding-top: 131px;
+}
+
+.store_box {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 80px 0;
+}
+
+.store_box a:not(last-of-type) {
+  margin-right: 10px;
+}
+
+.store_header {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+.foot_contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0 90px 0;
+}
+
+.links_list {
+  list-style-type: none;
+}
+
+.links_item {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.links_item a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.contact_modal {
+  cursor: pointer;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* цвет фона */
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.modal.open {
+  display: block;
+}
+
+.modal_content {
+  position: absolute;
+  overflow: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.modal_paragraph {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #333333;
+  padding-top: 10px;
+}
+
+
+.modal_сall_btn {
+  width: 200px;
+  height: 50px;
+  border: solid 1px #31C5A1;
+  background: #fff;
+  border-radius: 5%;
+
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #333333;
+}
+
+.modal_сall_btn:hover {
+  color: #fff;
+  background: #31C5A1;
+  transition: 0.2s
+}
+
+.close_modal {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border: solid 1px #31C5A1;
+  background: #fff;
+  border-radius: 5%;
+
+  font-size: 17px;
+  color: #333333;
+}
+
+.close_modal:hover {
+  color: #fff;
+  background: #31C5A1;
+  transition: 0.2s
+}
+/* конец работы с футером */
