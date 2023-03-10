@@ -1,0 +1,69 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-left: 100px;
+}
+
+.hed{
+display: flex;
+gap: 165px;
+align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    color: #000;
+}
+
+.menu a{
+    color: #222222;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: 900;
+}
+.menu .active1{
+    color: #0082F3;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.promo_wap{
+    display: flex;
+    align-items: center;  
+    gap: 40px;
+}
+
+.promo_content h1{
+font-size: 65px;
+color: #000;
+}
+
+.promo_content p {
+    font-size: 30px;
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.promo_img{
+    width: 50%;
+    height: 50%;
+} 
+     
