@@ -1,6 +1,6 @@
 
 let mn = document.querySelector('.active1')
-let nm = document.querySelector('header')
+let nm = document.querySelector('.header')
 
 let promo = nm.offsetTop
 
@@ -16,7 +16,7 @@ mn.addEventListener('click', scrol1)
 
 
 let lnk2 = document.querySelector('.active2')
-let cont = document.querySelector('main')
+let cont = document.querySelector('.sec2')
 
 let sec2_pos = cont.offsetTop
 
