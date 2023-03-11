@@ -50,9 +50,8 @@ display: none;
 }
 .burger {
 
-top: 42px;
-right: 50px;
-
+top: 0;
+left: 80%;
 display: none;
 width: 60px;
 height: 46px;
@@ -83,7 +82,7 @@ bottom: 0;
   display: grid;
 }
 .hed .nav_right {
-right: 0;
+right: 25%;
 }
 
 
@@ -103,6 +102,7 @@ position: relative;
 }
 .fixed{
   position: fixed;
+  width: 100%;
 }
 
 .hed{
