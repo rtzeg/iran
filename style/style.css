@@ -94,11 +94,15 @@ right: 0;
 /* - - - - - - - - - - - - */
 .header{
 position: relative;
+
   width: 100%;
   margin: 0 auto;
   padding-top: 45px;
   padding-left: 100px;
   overflow: hidden;
+}
+.fixed{
+  position: fixed;
 }
 
 .hed{
