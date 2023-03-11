@@ -80,7 +80,7 @@ bottom: 0;
 }
 
 .avt_block {
-display: block;
+  display: grid;
 }
 .hed .nav_right {
 right: 0;
@@ -98,6 +98,7 @@ position: relative;
   margin: 0 auto;
   padding-top: 45px;
   padding-left: 100px;
+  overflow: hidden;
 }
 
 .hed{
@@ -105,6 +106,7 @@ display: flex;
 gap: 165px;
 align-items: center;
 }
+
 
 .menu{
   display: flex;

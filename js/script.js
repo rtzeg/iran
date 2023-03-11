@@ -128,5 +128,7 @@ burger.addEventListener('click',()=>{
   // burger.classList.add('avt_block')
   console.log('ss');
   hed_nav.classList.toggle('nav_right')
+  
+  
 
 })
