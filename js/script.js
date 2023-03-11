@@ -40,7 +40,7 @@ lnk2.addEventListener('click', scrool_js1)
 
 
 let lnk3 = document.querySelector('.active3')
-let sec = document.querySelector('footer')
+let sec = document.querySelector('.sec3')
 
 let sec3_pos = sec.offsetTop
 

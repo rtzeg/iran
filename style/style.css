@@ -16,6 +16,33 @@ main {
 .fs_1 {
     margin-top: 100px;
 }
+.slid_box {
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+  width: 80%;
+}
+.slid_box .zed_blox img {
+  width: 100%;
+  height: 100%;
+}
+.sec2 {
+  padding-top: 140px;
+}
+.container {
+  gap: 30px;
+}
+.links img, .links a{
+  width: 100%;
+  height: 100%;
+}
+.links {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  
+}
+
 
 
 
@@ -314,6 +341,12 @@ body {
     .promo_wap {
         gap: 20px;
     }
+    .sec2 {
+      padding-top: 35px;
+    }
+    .links {
+      width: 85%;
+    }
 }
 @media (max-width: 1024px) {
     .header {
@@ -334,6 +367,37 @@ body {
     .hed {
         gap: 90px;
     }
+    .slid_box {
+      width: 70%;
+    }
+    .store_header {
+      font-size: 25px;
+      padding-top: 70px;
+    }
+    .store_box img {
+      width: 100%;
+      height: 100%;
+    }
+    .store_box a:not(last-of-type) {
+      width: 120px;
+    }
+    .links_item {
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .foot_contacts img {
+      width: 130px;
+    }
+    .fs_1 {
+      margin-top: 50px;
+    }
+    .links {
+      width: 85%;
+      display: flex;
+      gap: 20px;
+      
+    }
+    
 }
 @media (max-width: 768px) {
     
