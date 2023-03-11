@@ -106,6 +106,9 @@ display: flex;
 gap: 165px;
 align-items: center;
 }
+.hed nav {
+  border-radius: 15px;
+}
 
 
 .menu{
